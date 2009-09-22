@@ -1,6 +1,6 @@
 = rudusp
 
-== DESCRIPTION
+== DESCRIPTION:
 
 <b>rudups</b> is an application for OS X used to find duplicate files. The files are compared using a md5 hash of their content. This application was written to learn RubyCocoa, so don't expect much.
 
