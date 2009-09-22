@@ -1,4 +1,4 @@
-= rudusp
+= rudups
 
 == DESCRIPTION:
 
