@@ -11,7 +11,6 @@ require 'dup_finder_delegate'
 
 #TODO fijarse si en las props del proyecto esta __MyCompanyName__
 #TODO set a minimum size to the main window
-#TODO rudups == find [dir1 [dir2 [...]]] -type f -exec md5sum '{}' \; | sort | uniq -w 32 -D
 class AppController < OSX::NSWindowController
 	include OSX
 	include DupFinderDelegate
