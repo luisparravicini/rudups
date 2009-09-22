@@ -4,7 +4,7 @@
 
 <b>rudups</b> is an application for OS X used to find duplicate files. The files are compared using a md5 hash of their content. This application was written to learn RubyCocoa, so don't expect much.
 
-This applications is a bloated version of <b>find [dir1 [dir2 [...]]] -type f -exec md5sum '{}' \; | sort | uniq -w 32 -D</b>.
+This application is a bloated version of <b>find [dir1 [dir2 [...]]] -type f -exec md5sum '{}' \; | sort | uniq -w 32 -D</b>
 
 
 == REQUERIMENTS:
