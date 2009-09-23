@@ -3,13 +3,12 @@
 #  rudups
 #
 #  Created by Luis Parravicini on 8/29/09.
-#  Copyright (c) 2009 __MyCompanyName__. All rights reserved.
+#  Copyright (c) 2009 Luis Parravicini. All rights reserved.
 #
 
 require 'osx/cocoa'
 require 'dup_finder_delegate'
 
-#TODO fijarse si en las props del proyecto esta __MyCompanyName__
 #TODO set a minimum size to the main window
 class AppController < OSX::NSWindowController
 	include OSX

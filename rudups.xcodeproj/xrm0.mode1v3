@@ -228,8 +228,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,8 +275,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>12</integer>
+									<integer>10</integer>
+									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -313,12 +311,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AppController.rb</string>
+								<string>main.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,23 +326,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AppController.rb</string>
+										<string>main.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>086CF1841061001F0072F878</string>
+										<string>0889A62D106A3892007323E4</string>
 										<key>history</key>
 										<array>
-											<string>0883289B1049D3BA00BE0D9F</string>
 											<string>08805913104DDC5300A80948</string>
 											<string>086FDC1C105602D700FEAE64</string>
-											<string>086CF1641060FC190072F878</string>
-											<string>086CF1651060FC190072F878</string>
-											<string>086CF1661060FC190072F878</string>
-											<string>086CF16D1060FC460072F878</string>
-											<string>086CF16E1060FC460072F878</string>
-											<string>086CF17C1060FD710072F878</string>
-											<string>086CF17D1060FD710072F878</string>
+											<string>0889A61C106A3892007323E4</string>
+											<string>0889A61D106A3892007323E4</string>
+											<string>0889A61E106A3892007323E4</string>
+											<string>0889A61F106A3892007323E4</string>
+											<string>0889A620106A3892007323E4</string>
+											<string>0889A621106A3892007323E4</string>
+											<string>0889A622106A3892007323E4</string>
+											<string>0889A623106A3892007323E4</string>
+											<string>0889A624106A3892007323E4</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -356,26 +357,14 @@
 											<string>086FDC26105602D700FEAE64</string>
 											<string>086FDC3F105602D700FEAE64</string>
 											<string>08F38A91105FB23200D292AB</string>
-											<string>086CF1551060FB9B0072F878</string>
-											<string>086CF1561060FB9B0072F878</string>
-											<string>086CF1571060FB9B0072F878</string>
-											<string>086CF1581060FB9B0072F878</string>
-											<string>086CF1591060FB9B0072F878</string>
-											<string>086CF15A1060FB9B0072F878</string>
-											<string>086CF15B1060FB9B0072F878</string>
-											<string>086CF15C1060FB9B0072F878</string>
-											<string>086CF15D1060FB9B0072F878</string>
-											<string>086CF15E1060FB9B0072F878</string>
-											<string>086CF1671060FC190072F878</string>
-											<string>086CF1681060FC190072F878</string>
-											<string>086CF1691060FC190072F878</string>
-											<string>086CF16A1060FC190072F878</string>
-											<string>086CF1711060FC460072F878</string>
-											<string>086CF1721060FC460072F878</string>
-											<string>086CF1731060FC460072F878</string>
-											<string>086CF1781060FCF20072F878</string>
-											<string>086CF17E1060FD710072F878</string>
-											<string>086CF17F1060FD710072F878</string>
+											<string>0889A625106A3892007323E4</string>
+											<string>0889A626106A3892007323E4</string>
+											<string>0889A627106A3892007323E4</string>
+											<string>0889A628106A3892007323E4</string>
+											<string>0889A629106A3892007323E4</string>
+											<string>0889A62A106A3892007323E4</string>
+											<string>0889A62B106A3892007323E4</string>
+											<string>0889A62C106A3892007323E4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -433,9 +422,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>086CF1601060FB9B0072F878</string>
+				<string>0889A62E106A3892007323E4</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>086CF1611060FB9B0072F878</string>
+				<string>0889A62F106A3892007323E4</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -569,13 +558,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>086CF1851061001F0072F878</string>
-		<string>086CF1861061001F0072F878</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>088327FC1049BB6900BE0D9F</string>
-		<string>/Users/xrm0/Documents/dev/labs/mac_dups/rudups/rudups/rudups.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/xrm0/Documents/dev/mac_dups/rudups/rudups/rudups.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>210 227 875 634 0 0 1440 878 </string>

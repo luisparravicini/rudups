@@ -3,7 +3,7 @@
 #  rudups
 #
 #  Created by Luis Parravicini on 8/31/09.
-#  Copyright (c) 2009 __MyCompanyName__. All rights reserved.
+#  Copyright (c) 2009 Luis Parravicini. All rights reserved.
 #
 
 require 'digest/md5'

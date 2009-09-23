@@ -3,7 +3,7 @@
 #  rudups
 #
 #  Created by Luis Parravicini on 9/8/09.
-#  Copyright (c) 2009 __MyCompanyName__. All rights reserved.
+#  Copyright (c) 2009 Luis Parravicini. All rights reserved.
 #
 
 class FilesTableView < OSX::NSTableView
