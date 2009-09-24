@@ -12,6 +12,7 @@
 		086FFFEB10571F5600313EA9 /* files_table_view.rb in Resources */ = {isa = PBXBuildFile; fileRef = 086FFFEA10571F5600313EA9 /* files_table_view.rb */; };
 		0873EF85104C92A000F4D9F1 /* dup_finder.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0873EF84104C92A000F4D9F1 /* dup_finder.rb */; };
 		0883281E1049C36200BE0D9F /* AppController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0883281D1049C36200BE0D9F /* AppController.rb */; };
+		088609EC106A3DEB0085C25E /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 088609EB106A3DEB0085C25E /* Credits.html */; };
 		08DB63F91051CFB0009D050E /* dup_finder_delegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 08DB63F81051CFB0009D050E /* dup_finder_delegate.rb */; };
 		08FF2CC91053EECA00F8DCEC /* files_ds.rb in Resources */ = {isa = PBXBuildFile; fileRef = 08FF2CC81053EECA00F8DCEC /* files_ds.rb */; };
 		4DDCA7060ACC9A6100E082CE /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -28,6 +29,7 @@
 		086FFFEA10571F5600313EA9 /* files_table_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = files_table_view.rb; sourceTree = "<group>"; };
 		0873EF84104C92A000F4D9F1 /* dup_finder.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = dup_finder.rb; sourceTree = "<group>"; };
 		0883281D1049C36200BE0D9F /* AppController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppController.rb; sourceTree = "<group>"; };
+		088609EB106A3DEB0085C25E /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08DB63F81051CFB0009D050E /* dup_finder_delegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = dup_finder_delegate.rb; sourceTree = "<group>"; };
 		08FF2CC81053EECA00F8DCEC /* files_ds.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = files_ds.rb; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		29B97314FDCFA39411CA2CEA /* rudups */ = {
 			isa = PBXGroup;
 			children = (
+				088609EB106A3DEB0085C25E /* Credits.html */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -199,6 +202,7 @@
 				08FF2CC91053EECA00F8DCEC /* files_ds.rb in Resources */,
 				086FDBC31055BC6900FEAE64 /* dirs_ds.rb in Resources */,
 				086FFFEB10571F5600313EA9 /* files_table_view.rb in Resources */,
+				088609EC106A3DEB0085C25E /* Credits.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

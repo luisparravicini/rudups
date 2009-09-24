@@ -9,7 +9,6 @@
 require 'osx/cocoa'
 require 'dup_finder_delegate'
 
-#TODO set a minimum size to the main window
 class AppController < OSX::NSWindowController
 	include OSX
 	include DupFinderDelegate
