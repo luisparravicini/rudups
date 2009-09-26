@@ -51,6 +51,11 @@ class AppController < OSX::NSWindowController
 		@dirs.reloadData
 	end
 
+	def donate(sender)
+		url = NSURL.alloc.initWithString("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8493669")
+		NSWorkspace.sharedWorkspace.openURL(url)
+	end
+
 	def find_dups(sender)
 		@files_ds.clear
 		disable_controls
@@ -122,6 +127,7 @@ EOT
 	ib_action :find_dups
 	ib_action :export
 	ib_action :cancel
+	ib_action :donate
 	ib_outlets :dirs
 	#TODO there should be a ProgressController?
 	ib_outlets :progress, :progress_label, :progress_bar
