@@ -138,6 +138,7 @@ EOT
 	ib_action :open_file
 	ib_action :send_to_trash
 
+
 	private
 
 		def selected_file
