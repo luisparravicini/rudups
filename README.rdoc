@@ -4,7 +4,7 @@
 
 <b>rudups</b> is an application for OS X used to find duplicate files. The files are compared using a md5 hash of their content. This application was written to learn RubyCocoa, so don't expect much.
 
-This application is a bloated version of <b>find [dir1 [dir2 [...]]] -type f -exec md5sum '{}' \; | sort | uniq -w 32 -D</b>
+You can accomplish the same with <b>find [dir1 [dir2 [...]]] -type f -exec md5sum '{}' \; | sort | uniq -w 32 -D</b> . Although the <tt>-w</tt> and <tt>-D</tt> options passed to <tt>uniq</tt> are not valid on OS X (tested on 10.5) but recognized on Linux (tested on Debian).
 
 
 == REQUERIMENTS:
@@ -13,9 +13,9 @@ This application is a bloated version of <b>find [dir1 [dir2 [...]]] -type f -ex
 
 == INSTALL:
 
-  You can download the dmg file from: http://rubyforge.org/frs/?group_id=9021
+You can download the dmg file from rubyforge[http://rubyforge.org/frs/?group_id=9021]
 
-== LICENSE:
+== COPYRIGHT:
 
-rudups is released under the GPL v2 license.
+Copyright 2009 Luis Parravicini. rudups is released under the GPL v2 license.
 
