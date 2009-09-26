@@ -1,0 +1,6 @@
+20090926 - v0.1
+  - first release
+
+2009xxxx - v0.2
+  - added a menu item to show main window
+  - menu item to make a donation in paypal
