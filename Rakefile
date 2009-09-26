@@ -60,12 +60,23 @@ desc "Package the application"
 task :package => ["xcode:build:#{DEFAULT_TARGET}:#{RELEASE_CONFIGURATION}", "pkg"] do
   name = "#{APPNAME}.#{APPVERSION}"
   mkdir "image"
-  sh %{rubycocoa standaloneify "build/#{DEFAULT_CONFIGURATION}/#{APPNAME}.app" "image/#{APPNAME}.app"}
+  #custom: the rubycocoa standaloneify line in the original Rakefile didn't
+  #worked
+  unless File.directory?('rubycocoa/RubyCocoa.framework')
+    sh %{tar zxf rubycocoa/RubyCocoa_0.13.2.2_10.5.tar.gz -C rubycocoa}
+  end
+  sh %{ruby rubycocoa/RubyCocoa.framework/Versions/Current/Tools/standaloneify.rb "build/#{DEFAULT_CONFIGURATION}/#{APPNAME}.app" -d "image/#{APPNAME}.app"}
   puts 'Creating Image...'
   sh %{
-  hdiutil create -volname '#{name}' -srcfolder image '#{name}'.dmg
+  hdiutil create -volname '#{name}' -size 10m -fs HFS+ #{name}.dmg
+  hdiutil attach '#{name}'.dmg -readwrite
+  cp -r image/* /Volumes/#{name}
   rm -rf image
+  ln -s /Applications /Volumes/#{name}/Applications
+  cp -r image.files/.DS_Store image.files/.background /Volumes/#{name}
+  hdiutil detach /Volumes/'#{name}'
   mv '#{name}.dmg' pkg
+  hdiutil convert pkg/'#{name}.dmg' -format UDBZ -o pkg/'#{name}'.bz2.dmg
   }
 end
 

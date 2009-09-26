@@ -6,6 +6,9 @@
 #  Copyright (c) 2009 Luis Parravicini. All rights reserved.
 #
 
+# TODO when creating a dmg the app on the dmg file cant find the required files
+$LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'Frameworks/RubyCocoa.framework/Resources/ruby')
+
 require 'osx/cocoa'
 
 def rb_main_init
